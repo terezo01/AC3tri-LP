@@ -35,8 +35,6 @@ function calcular() {
         preço += 15
     }
 
-    alert(`${preço}`)
-
     document.getElementById('saida').innerHTML = `O preço após ${diferença} horas é de: ${precoFinal}R$`
 
 }
